@@ -4,8 +4,6 @@ date: 2022-02-15T20:00:00
 description: In the wild west of software development, where developers are sprinting to push code and stakeholders are demanding features that defy the laws of thermodynamics, someone has to be the adult in the room. Enter the Product Manager (PM).
 ---
 
-In the wild west of software development, where developers are sprinting to push code and stakeholders are demanding features that defy the laws of thermodynamics, someone has to be the adult in the room. Enter the Product Manager (PM).
-
 Historically, this role has its roots way back in 1931 when Neil McElroy at Procter & Gamble penned a famous memo about "Brand Men" who would own a product's lifecycle from inception to sales. Flash forward to the tech boom, and giants like Hewlett-Packard and later Microsoft adapted this into program management. But what does it actually _mean_ today?
 
 At its core, Product Management is the intersection of business, technology, and user experience. If software development was a game of Dungeons & Dragons, the PM is the Dungeon Master. You aren't casting the fireballs (coding in Vue) or fighting the goblins (designing the UI), but you _are_ designing the campaign, balancing the encounters, and making sure the players (the users) are actually having a good time instead of just dying in a pit trap on level one.
