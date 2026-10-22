@@ -41,21 +41,21 @@ export const profile = {
       role: 'Director of Product Management',
       dates: '2019–present',
       summary:
-        'Owns a multi-platform portfolio spanning an LMS, learner portal, ConnectED hybrid events, CRM integrations, and microsites. Outcomes include a 50% increase in grant submissions, Microcredit modules tied to $7M+ in contracts, and a 35% improvement in completion rates.',
+        'Architected the strategy and modernization of a complex, multi-platform ecosystem, pivoting national in-person programs into a highly scalable virtual platform. Drove a 50% increase in grant submissions, optimized user journeys to boost completion rates by 35%, and launched new learning modules that unlocked $7M+ in pharmaceutical contracts.',
     },
     {
       org: 'Carevive',
       role: 'Senior Product Manager',
       dates: '2018–2019',
       summary:
-        'Owned Carevive PROmPt, a patient-reported outcomes app for oncology that brought together EHR data, clinical guidelines, and patient input.',
+        'Architected the full product lifecycle for an oncology patient-reported outcomes app, harmonizing complex EHR data with clinical guidelines. Redesigned client workflows and UX, which improved clinical user adherence, elevated customer satisfaction, and reduced platform churn.',
     },
     {
       org: 'Igea / Complia',
       role: 'Product Manager',
       dates: '2011–2018',
       summary:
-        'Led development of regulated healthcare software, including the OASIS-B1 to OASIS-C1 transition for 600+ clients, plus billing and EVV modules.',
+        'Built mission-critical healthcare platforms in highly regulated environments. Migrated 600+ enterprise clients through complex regulatory compliance transitions and launched high-value secondary billing and EVV modules that captured 20% immediate client adoption.',
     },
   ],
   hobbies: [
