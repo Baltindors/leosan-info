@@ -1,6 +1,7 @@
 <script setup>
 import { useTitle } from '@vueuse/core'
 import AppCard from '../components/AppCard.vue'
+import SocialLinks from '../components/SocialLinks.vue'
 import { profile } from '../data/profile.js'
 
 useTitle('Leonardo Sanchez')
@@ -23,6 +24,7 @@ const rise = {
         {{ profile.name }}
       </h1>
       <p class="mt-3 text-lg text-muted">{{ profile.title }}</p>
+      <SocialLinks class="mt-4" />
     </header>
 
     <section class="mt-14">
@@ -83,19 +85,20 @@ const rise = {
       </div>
     </section>
 
-    <section
-      v-motion
-      class="mt-14"
-      :initial="rise.initial"
-      :visibleOnce="rise.visibleOnce"
-    >
+    <section class="mt-14">
       <h2 class="text-sm font-medium text-muted">Hobbies</h2>
-      <ul class="mt-4 space-y-3">
-        <li v-for="hobby in profile.hobbies" :key="hobby.id" class="text-ink">
-          <p>{{ hobby.name || 'To be added' }}</p>
-          <p v-if="hobby.summary" class="text-sm text-muted">{{ hobby.summary }}</p>
-        </li>
-      </ul>
+      <div class="mt-4 grid gap-4 sm:grid-cols-2">
+        <AppCard
+          v-for="hobby in profile.hobbies"
+          :key="hobby.id"
+          v-motion
+          :initial="rise.initial"
+          :visibleOnce="rise.visibleOnce"
+        >
+          <h3 class="text-base font-medium tracking-tight text-ink">{{ hobby.name }}</h3>
+          <p class="mt-2 text-sm leading-relaxed text-muted">{{ hobby.summary }}</p>
+        </AppCard>
+      </div>
     </section>
   </main>
 </template>

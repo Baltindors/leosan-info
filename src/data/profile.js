@@ -2,6 +2,23 @@ export const profile = {
   name: 'Leonardo F. Sanchez Biondini',
   title: 'Director of Product Management',
   location: 'South Florida',
+  socials: [
+    {
+      id: 'github',
+      label: 'GitHub',
+      href: 'https://github.com/Baltindors',
+    },
+    {
+      id: 'linkedin',
+      label: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/leonardo-sanchez-biondini-49907b68/',
+    },
+    {
+      id: 'bluesky',
+      label: 'Bluesky',
+      href: 'https://bsky.app/profile/baltindors.bsky.social',
+    },
+  ],
   currentFocus: {
     label: 'Current focus',
     summary: 'Implementing AI transformation across the company.',
@@ -39,8 +56,25 @@ export const profile = {
     },
   ],
   hobbies: [
-    { id: 'hobby-1', name: '', summary: '' },
-    { id: 'hobby-2', name: '', summary: '' },
-    { id: 'hobby-3', name: '', summary: '' },
+    {
+      id: 'indie-games',
+      name: 'Indie Game Developer',
+      summary: 'Coding and creating my own video games.',
+    },
+    {
+      id: 'reading',
+      name: 'Reading',
+      summary: 'Fantasy books, especially classics like The Lord of the Rings.',
+    },
+    {
+      id: 'gaming',
+      name: 'Gaming',
+      summary: 'Playing video games.',
+    },
+    {
+      id: 'hiking',
+      name: 'Hiking',
+      summary: 'Enjoying the outdoors.',
+    },
   ],
 }
