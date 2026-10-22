@@ -2,6 +2,9 @@ export const profile = {
   name: 'Leonardo F. Sanchez Biondini',
   title: 'Director of Product Management',
   location: 'South Florida',
+  email: 'leosan3.141@gmail.com',
+  phone: '(754) 204-3644',
+  phoneHref: 'tel:+17542043644',
   socials: [
     {
       id: 'github',
