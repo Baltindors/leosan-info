@@ -24,7 +24,7 @@ export const profile = {
   ],
   currentFocus: {
     label: 'Current focus',
-    summary: 'Implementing AI transformation across the company.',
+    summary: 'Scaling AI capabilities organization-wide through a responsible, human-in-the-loop framework.',
   },
   summary:
     'Director of Product Management with 14+ years of experience leading healthcare, education, and regulated-industry platforms across web, mobile, live events, and data.',
