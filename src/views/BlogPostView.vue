@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 import { useTitle } from '@vueuse/core'
+import LogoMark from '../components/LogoMark.vue'
 import { getPost } from '../content/posts.js'
 
 const route = useRoute()
@@ -14,7 +15,10 @@ useTitle(computed(() => (post.value ? post.value.title : 'Post not found')))
   <main class="mx-auto max-w-3xl px-5 py-12 md:py-20">
     <article v-if="post">
       <RouterLink to="/blog" class="text-sm text-accent">Back to blog</RouterLink>
-      <p class="mt-6 text-sm text-muted">{{ post.dateLabel }}</p>
+      <p class="mt-6 flex items-center gap-2 text-sm text-muted">
+        <LogoMark class="h-4 text-accent" />
+        {{ post.dateLabel }}
+      </p>
       <h1 class="mt-2 text-4xl font-medium tracking-tight">{{ post.title }}</h1>
       <p class="mt-3 text-lg text-muted">{{ post.description }}</p>
       <div class="mt-10">

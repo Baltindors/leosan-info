@@ -1,6 +1,7 @@
 <script setup>
 import { useTitle } from '@vueuse/core'
 import AppCard from '../components/AppCard.vue'
+import LogoMark from '../components/LogoMark.vue'
 import SocialLinks from '../components/SocialLinks.vue'
 import { profile } from '../data/profile.js'
 
@@ -19,7 +20,12 @@ const rise = {
 <template>
   <main class="mx-auto max-w-3xl px-5 py-12 md:py-20">
     <header v-motion :initial="rise.initial" :visibleOnce="rise.visibleOnce">
-      <p class="text-sm text-muted">{{ profile.location }}</p>
+      <div
+        class="grid size-16 place-items-center rounded-full bg-accent/10 text-accent ring-1 ring-accent/15"
+      >
+        <LogoMark class="h-10" />
+      </div>
+      <p class="mt-5 text-sm text-muted">{{ profile.location }}</p>
       <h1 class="mt-3 text-4xl font-medium tracking-tight text-ink md:text-5xl">
         {{ profile.name }}
       </h1>

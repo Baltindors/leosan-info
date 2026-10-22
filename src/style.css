@@ -5,7 +5,7 @@
   --paper: #ffffff;
   --ink: #1d1d1f;
   --muted: #6e6e73;
-  --accent: #0071e3;
+  --accent: #2d4cb1;
   --line: rgb(0 0 0 / 0.08);
   color-scheme: light;
 }
@@ -15,6 +15,7 @@
     --paper: #000000;
     --ink: #f5f5f7;
     --muted: #a1a1a6;
+    --accent: #9aacef;
     --line: rgb(255 255 255 / 0.12);
     color-scheme: dark;
   }
@@ -33,6 +34,25 @@
 
 .surface-card {
   corner-shape: squircle;
+}
+
+.logo-mark {
+  display: inline-block;
+  aspect-ratio: 284 / 388;
+  background-color: currentColor;
+  mask-image: url('/logo.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  -webkit-mask-image: url('/logo.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+}
+
+.prose {
+  --tw-prose-links: var(--accent);
+  --tw-prose-invert-links: var(--accent);
 }
 
 .page-enter-active,

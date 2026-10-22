@@ -13,7 +13,7 @@ What this page checks:
 - An image
 - A fenced code block
 
-![Sample image](/favicon.svg)
+![Sample image](/logo.png)
 
 ```js
 export function hello(name) {

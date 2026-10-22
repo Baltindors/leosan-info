@@ -20,10 +20,10 @@ Colors follow `prefers-color-scheme`. There is no manual theme toggle.
 | Surface (`paper`) | `#ffffff` | `#000000` |
 | Primary text (`ink`) | `#1d1d1f` | `#f5f5f7` |
 | Secondary text (`muted`) | `#6e6e73` | `#a1a1a6` |
-| Accent | `#0071e3` | `#0071e3` |
+| Accent | `#2d4cb1` | `#9aacef` |
 | Hairline | `rgb(0 0 0 / 0.08)` | `rgb(255 255 255 / 0.12)` |
 
-The accent is the only chromatic color. Use it for the active nav item, organization names, and text links. Do not introduce a second brand color.
+The accent is the logo blue, and the only chromatic color. Light mode uses the mark’s own `#2d4cb1`. Dark mode lightens that same blue to `#9aacef` so the mark and links stay readable on black. Use it for the logo, the active nav item, organization names, and text links. Do not introduce a second brand color.
 
 Tokens live in `src/style.css` as CSS variables, then mapped with Tailwind `@theme inline` so utilities such as `bg-paper`, `text-ink`, `text-muted`, `text-accent`, and `ring-line` follow the system theme.
 

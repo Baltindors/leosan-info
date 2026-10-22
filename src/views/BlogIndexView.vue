@@ -2,6 +2,7 @@
 import { RouterLink } from 'vue-router'
 import { useTitle } from '@vueuse/core'
 import AppCard from '../components/AppCard.vue'
+import LogoMark from '../components/LogoMark.vue'
 import { posts } from '../content/posts.js'
 
 useTitle('Blog · Leonardo Sanchez')
@@ -19,7 +20,12 @@ const rise = {
 <template>
   <main class="mx-auto max-w-3xl px-5 py-12 md:py-20">
     <header v-motion :initial="rise.initial" :visibleOnce="rise.visibleOnce">
-      <h1 class="text-4xl font-medium tracking-tight">Blog</h1>
+      <div
+        class="grid size-16 place-items-center rounded-full bg-accent/10 text-accent ring-1 ring-accent/15"
+      >
+        <LogoMark class="h-10" />
+      </div>
+      <h1 class="mt-5 text-4xl font-medium tracking-tight">Blog</h1>
       <p class="mt-3 text-lg text-muted">Notes on product, platforms, and the work in progress.</p>
     </header>
 

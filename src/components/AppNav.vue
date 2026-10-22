@@ -2,6 +2,7 @@
 import { computed, ref, watch } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 import { useMediaQuery, useWindowScroll } from '@vueuse/core'
+import LogoMark from './LogoMark.vue'
 
 const route = useRoute()
 const open = ref(false)
@@ -32,7 +33,8 @@ watch(
     :class="scrolled ? 'shadow-card' : ''"
   >
     <div class="mx-auto flex max-w-3xl items-center justify-between px-5 py-3">
-      <RouterLink to="/" class="text-sm font-medium tracking-tight text-ink">
+      <RouterLink to="/" class="flex items-center gap-2.5 text-sm font-medium tracking-tight text-ink">
+        <LogoMark class="h-7 text-accent" />
         Leonardo Sanchez
       </RouterLink>
 
