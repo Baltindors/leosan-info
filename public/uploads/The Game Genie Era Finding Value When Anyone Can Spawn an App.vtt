@@ -1,0 +1,188 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+The Game Genie Era: Finding Value When Anyone Can Spawn an App
+
+00:00:04.500 --> 00:00:07.500
+Remember the Game Genie? You plugged it into your NES,
+
+00:00:07.500 --> 00:00:11.000
+typed in a cryptic hex code, and suddenly you had infinite lives,
+
+00:00:11.000 --> 00:00:13.500
+a moon jump, and the spread gun.
+
+00:00:14.000 --> 00:00:18.000
+That is exactly what Generative AI just did to software development.
+
+00:00:18.500 --> 00:00:22.000
+With tools like v0, Cursor, and Lovable, anyone with a pulse
+
+00:00:22.000 --> 00:00:25.500
+and a keyboard can prompt a full-stack Vue and Express app
+
+00:00:25.500 --> 00:00:28.000
+into existence before their morning coffee gets cold.
+
+00:00:29.000 --> 00:00:32.000
+So, here is the existential crisis of the week:
+
+00:00:32.500 --> 00:00:36.000
+If everyone is a "builder" now, what exactly is a Product Manager supposed to do?
+
+00:00:36.500 --> 00:00:40.000
+If the barrier to shipping code has dropped to zero, are we just highly paid cheerleaders?
+
+00:00:41.000 --> 00:00:43.000
+Short answer: No.
+
+00:00:43.500 --> 00:00:47.000
+But if your entire job was just acting as a human router—
+
+00:00:47.000 --> 00:00:50.000
+taking business requests, formatting them into Jira tickets,
+
+00:00:50.000 --> 00:00:53.000
+and nagging frontend devs about padding—
+
+00:00:53.000 --> 00:00:55.500
+you are officially an NPC in this new meta.
+
+00:00:56.500 --> 00:01:00.000
+Here is how you level up and find meaning when execution is completely commoditized.
+
+00:01:01.000 --> 00:01:04.000
+
+Writing is Thinking (Stop Outsourcing Your Brain)
+
+00:01:04.500 --> 00:01:08.500
+There is a massive temptation to just ask an LLM to "write a PRD for a new user onboarding flow."
+
+00:01:09.000 --> 00:01:13.500
+Product legend Marty Cagan recently pointed out the fatal flaw here: writing a PRD is the definition of thinking.
+
+00:01:14.000 --> 00:01:17.000
+If you outsource the narrative, you outsource your product sense.
+
+00:01:17.500 --> 00:01:21.000
+AI is here to augment your intelligence, not replace it.
+
+00:01:21.500 --> 00:01:26.000
+Use AI to challenge your assumptions, find edge cases in your logic, or summarize user research,
+
+00:01:26.000 --> 00:01:28.000
+but do not let it define the core problem.
+
+00:01:28.500 --> 00:01:32.500
+The moment you stop thinking critically about why you are building something, your value drops to zero.
+
+00:01:33.500 --> 00:01:36.500
+2. Code is a Commodity; Product Sense is Premium
+
+00:01:37.000 --> 00:01:40.000
+Kris Gale famously said, "The value is in what gets used, not in what gets built."
+
+00:01:40.500 --> 00:01:44.000
+In the past, 90% of a company's effort was spent just wrestling with the compiler
+
+00:01:44.000 --> 00:01:46.000
+to get the software to exist.
+
+00:01:46.500 --> 00:01:50.000
+Now that generating the software is cheap, the penalty for building the wrong thing
+
+00:01:50.000 --> 00:01:53.000
+isn't necessarily lost dev hours—it's lost user trust and flooded markets.
+
+00:01:54.000 --> 00:01:57.000
+Your job is no longer to manage the pipeline of output;
+
+00:01:57.000 --> 00:02:01.000
+your job is to relentlessly filter the noise and apply world-class Product Sense.
+
+00:02:01.500 --> 00:02:05.000
+You have to "fall in love with the problem, not the solution."
+
+00:02:05.500 --> 00:02:09.000
+Anyone can spawn a shiny new app, but very few know if it actually solves a bleeding-neck problem for the user.
+
+00:02:10.000 --> 00:02:13.500
+3. You Are Now the Editor-in-Chief (and the QA Boss)
+
+00:02:14.000 --> 00:02:18.000
+When everyone can generate an app, the differentiator becomes quality and reliability.
+
+00:02:18.500 --> 00:02:22.000
+LLMs hallucinate. APIs break. Data models drift.
+
+00:02:22.500 --> 00:02:25.500
+As an AI PM, your new superpower is Evaluation.
+
+00:02:26.000 --> 00:02:28.500
+You need to understand the unit economics of a feature,
+
+00:02:28.500 --> 00:02:32.000
+where the model is likely to fail, and how to design graceful fallbacks for the user.
+
+00:02:32.500 --> 00:02:35.500
+You aren't necessarily writing the Python scripts, but you own the trade-offs.
+
+00:02:36.000 --> 00:02:38.500
+You are the one building the evaluation sets—
+
+00:02:38.500 --> 00:02:43.000
+the 20 weird edge cases that prove the AI isn't going to accidentally leak a customer's data
+
+00:02:43.000 --> 00:02:45.000
+or give them insanely wrong advice.
+
+00:02:46.000 --> 00:02:49.000
+4. Empathy Doesn't Have an API
+
+00:02:49.500 --> 00:02:53.000
+An LLM can write a flawless sorting algorithm for an Express backend,
+
+00:02:53.500 --> 00:02:56.500
+but it cannot sit in a room with a frustrated user,
+
+00:02:56.500 --> 00:03:00.000
+watch their shoulders slump when a dashboard fails to load,
+
+00:03:00.000 --> 00:03:02.000
+and understand their emotional state.
+
+00:03:02.500 --> 00:03:05.500
+That human context is the ultimate moat.
+
+00:03:06.000 --> 00:03:10.000
+We are in the golden era of product management. We finally get to stop managing the factory
+
+00:03:10.000 --> 00:03:12.500
+and start managing the product.
+
+00:03:13.000 --> 00:03:15.000
+Grab a controller, player one.
+
+00:03:16.000 --> 00:03:17.500
+TL;DR
+
+00:03:18.000 --> 00:03:22.000
+When AI makes building apps practically free, code becomes a commodity
+
+00:03:22.000 --> 00:03:24.000
+and Product Sense becomes the premium.
+
+00:03:24.500 --> 00:03:28.000
+Stop acting as a human Jira router and start acting as an Editor-in-Chief.
+
+00:03:28.500 --> 00:03:32.000
+Don't use AI to do your thinking; use it to test your logic.
+
+00:03:32.500 --> 00:03:36.000
+The real value is in knowing what to build, setting up strict evaluations,
+
+00:03:36.000 --> 00:03:39.500
+and intimately understanding the user's pain—
+
+00:03:40.000 --> 00:03:42.500
+because empathy doesn't have an API.

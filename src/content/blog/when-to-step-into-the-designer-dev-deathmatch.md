@@ -3,7 +3,7 @@ title: 'Boss Fights & Bottlenecks: When to Step Into the Designer vs. Developer 
 date: 2022-11-08T18:01:00
 description: "As a Product Manager, your social capital is exactly like your health bar in Street Fighter II. You start the quarter at 100%, and every time you force a decision, overrule an engineer, or demand a pivot, you take a hit. You must protect this capital. If you drain it on petty squabbles, you won't have enough juice left for the final boss: the executive stakeholders."
 audio: /uploads/The Game Genie Era Finding Value When Anyone Can Spawn an App.mp3
-vtt: ''
+vtt: /uploads/The Game Genie Era Finding Value When Anyone Can Spawn an App.vtt
 ---
 
 Designers and developers often clash due to fundamentally misaligned priorities: developers naturally want everything to be clear, logical, and scalable, while designers are focused on creativity, emotion, and user empathy. You can't just AFK while your frontend and backend developers tear each other apart over rendering speeds versus aesthetic vision. You have to know when to grab the controller.
