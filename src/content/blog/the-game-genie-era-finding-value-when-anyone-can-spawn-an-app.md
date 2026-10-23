@@ -3,7 +3,7 @@ title: 'The Game Genie Era: Finding Value When Anyone Can Spawn an App'
 date: 2026-06-22T21:09:00
 description: Remember the Game Genie? You plugged it into your NES, typed in a cryptic hex code, and suddenly you had infinite lives, a moon jump, and the spread gun. That is exactly what Generative AI just did to software development. With tools like v0, Cursor, and Lovable, anyone with a pulse and a keyboard can prompt a full-stack Vue and Express app into existence before their morning coffee gets cold.
 audio: /uploads/The Game Genie Era Finding Value When Anyone Can Spawn an App.mp3
-vtt: /uploads/The Game Genie Era Finding Value When Anyone Can Spawn an App.vtt
+vtt: ''
 ---
 
 So, here is the existential crisis of the week: If everyone is a "builder" now, what exactly is a Product Manager supposed to do? If the barrier to shipping code has dropped to zero, are we just highly paid cheerleaders?
