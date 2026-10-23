@@ -55,6 +55,13 @@
   --tw-prose-invert-links: var(--accent);
 }
 
+.prose .active-audio {
+  background-color: rgb(250 204 21 / 0.7);
+  font-weight: 700;
+  border-radius: 0.25rem;
+  color: #1d1d1f;
+}
+
 .page-enter-active,
 .page-leave-active {
   transition:

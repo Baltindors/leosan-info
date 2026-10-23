@@ -35,6 +35,8 @@ export const posts = Object.entries(rawPosts)
       date,
       dateLabel: formatDate(date),
       description: attributes.description ?? '',
+      audio: attributes.audio ?? '',
+      vtt: attributes.vtt ?? '',
       component: components[path]?.default,
     }
   })
