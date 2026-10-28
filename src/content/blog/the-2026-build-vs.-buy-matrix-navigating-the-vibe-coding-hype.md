@@ -2,7 +2,7 @@
 title: 'The 2026 Build vs. Buy Matrix: Navigating the Vibe Coding Hype'
 date: 2026-10-22T19:02:00
 description: Every product manager in 2026 has had the same conversation. A vendor renewal is coming up, the finance team is demanding budget cuts, and a stakeholder points out that an intern just "vibe coded" a working dashboard over the weekend. "Why are we paying for this specialized SaaS? Can't we just generate our own version by Friday?"
-audio: ''
+audio: /uploads/The 2026 Build vs Buy Matrix Navigating the Vibe Coding Hype.mp3
 vtt: ''
 ---
 
